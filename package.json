@@ -1,5 +1,5 @@
 { "name": "deku-material-svg-icons"
-, "version": "0.1.0"
+, "version": "0.1.1"
 , "description": "Google's Material Design SVG icons as Deku components."
 , "license": "MIT"
 , "repository": "goto-bus-stop/deku-material-svg-icons"
