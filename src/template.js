@@ -1,5 +1,5 @@
 var Icon = require('../icon')
-var element = require('virtual-element')
+var element = require('magic-virtual-element')
 var clone = require('../clone')
 
 exports.render = function render (component) {
