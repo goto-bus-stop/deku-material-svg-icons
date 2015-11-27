@@ -1,0 +1,10 @@
+{ "name": "deku-material-svg-icons"
+, "version": "0.0.0"
+, "description": "Google's Material Design SVG icons as Deku components."
+, "license": "MIT"
+, "repository": "goto-bus-stop/deku-material-svg-icons"
+, "author": "René Kooi <rene@kooi.me>"
+, "keywords":
+  [ "material ui", "material design"
+  , "react", "react-component"
+  , "icons" ] }
