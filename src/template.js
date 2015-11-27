@@ -1,4 +1,3 @@
-/** @jsx element */
 var Icon = require('../icon')
 var element = require('virtual-element')
 var clone = require('../clone')

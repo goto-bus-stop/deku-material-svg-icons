@@ -1,4 +1,3 @@
-/** @jsx element */
 var element = require('magic-virtual-element')
 
 exports.render = function render (component) {
