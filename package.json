@@ -4,7 +4,19 @@
 , "license": "MIT"
 , "repository": "goto-bus-stop/deku-material-svg-icons"
 , "author": "René Kooi <rene@kooi.me>"
+, "scripts":
+  { "build": "node build" }
+, "files":
+  [ "lib", "build.js" ]
 , "keywords":
   [ "material ui", "material design"
   , "react", "react-component"
-  , "icons" ] }
+  , "icons" ]
+, "dependencies":
+  { "magic-virtual-element": "^1.0.6" }
+, "devDependencies":
+  { "babel-core": "^6.2.1"
+  , "babel-plugin-transform-react-jsx": "^6.2.0"
+  , "glob": "^6.0.1"
+  , "material-design-icons": "^2.1.1"
+  , "mkdirp": "^0.5.1" } }
