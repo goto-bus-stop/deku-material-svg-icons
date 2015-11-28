@@ -8,6 +8,9 @@ exports.render = function render (component) {
     viewBox: '0 0 24 24',
     style: 'width: ' + size + 'px; height: ' + size + 'px;'
   }
+  if (props.color) {
+    attrs.style += ' fill: ' + props.color + ';'
+  }
   Object.keys(props).forEach(function (key) {
     if (key === 'style') {
       attrs.style += ' ' + props.style

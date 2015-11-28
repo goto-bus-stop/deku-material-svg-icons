@@ -16,9 +16,9 @@ var element = require('virtual-element')
 var WarningIcon = require('deku-material-svg-icons/lib/alert/warning')
 
 var tree = deku.tree(
-  element(WarningIcon, { style: { fill: '#f00' } })
+  element(WarningIcon, { color: '#f00' })
   // or with JSX:
-  // <WarningIcon style={{ fill: '#f00' }} />
+  // <WarningIcon color="#f00" />
 )
 
 deku.render(tree, document.getElementById('#warning-icon'))
