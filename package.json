@@ -1,23 +1,33 @@
-{ "name": "deku-material-svg-icons"
-, "version": "0.2.0"
-, "description": "Google's Material Design SVG icons as Deku components."
-, "license": "MIT"
-, "repository": "goto-bus-stop/deku-material-svg-icons"
-, "author": "René Kooi <rene@kooi.me>"
-, "scripts":
-  { "build": "node build" }
-, "files":
-  [ "lib", "build.js" ]
-, "keywords":
-  [ "material ui", "material design"
-  , "react", "react-component"
-  , "icons" ]
-, "dependencies":
-  { "magic-virtual-element": "^1.0.6"
-  , "to-style": "^1.3.3" }
-, "devDependencies":
-  { "babel-core": "^6.2.1"
-  , "babel-plugin-transform-react-jsx": "^6.2.0"
-  , "glob": "^6.0.1"
-  , "material-design-icons": "^2.2.3"
-  , "mkdirp": "^0.5.1" } }
+{
+  "name": "deku-material-svg-icons",
+  "version": "0.3.0",
+  "description": "Google's Material Design SVG icons as Deku components.",
+  "license": "MIT",
+  "repository": "goto-bus-stop/deku-material-svg-icons",
+  "author": "René Kooi <rene@kooi.me>",
+  "scripts": {
+    "build": "node build"
+  },
+  "files": [
+    "lib",
+    "build.js"
+  ],
+  "keywords": [
+    "material ui",
+    "material design",
+    "react",
+    "react-component",
+    "icons"
+  ],
+  "dependencies": {
+    "magic-virtual-element": "^1.0.6",
+    "to-style": "^1.3.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-plugin-transform-react-jsx": "^6.2.0",
+    "glob": "^6.0.1",
+    "material-design-icons": "^2.2.3",
+    "mkdirp": "^0.5.1"
+  }
+}
