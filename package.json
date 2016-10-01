@@ -26,8 +26,8 @@
   "devDependencies": {
     "babel-core": "^6.2.1",
     "babel-plugin-transform-react-jsx": "^6.2.0",
-    "glob": "^6.0.1",
-    "material-design-icons": "^2.2.3",
+    "glob": "^7.1.0",
+    "material-design-icons": "^3.0.1",
     "mkdirp": "^0.5.1"
   }
 }
