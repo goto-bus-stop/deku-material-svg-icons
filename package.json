@@ -6,7 +6,9 @@
   "repository": "goto-bus-stop/deku-material-svg-icons",
   "author": "René Kooi <rene@kooi.me>",
   "scripts": {
-    "build": "node build"
+    "prepublish": "npm run build",
+    "build": "node build",
+    "test": "true"
   },
   "files": [
     "lib",
